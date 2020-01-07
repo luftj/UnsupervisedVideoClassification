@@ -1,0 +1,3241 @@
+
+Loading detector 0: 'files/codebooks/cars4_3-cars5_2/cars4_3-cars5_2.det'...
+loadCodebook() called...
+loadCodebook() done.
+loadOccurrences() called.
+  58981 Occurrences loaded...
+loadOccurrences() done.
+loadOccurrenceMaps() called.
+  8395 Occurrence maps loaded...
+loadOccurrenceMaps() done.
+    Debugging info for idlExperiment:
+    --------------------------------
+    Image Description List:
+      #entries: 37
+      Name: ../data/inter/frames/cars5/1/cars5-001.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-002.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-003.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-004.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-005.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-006.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-007.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-008.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-009.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-010.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-011.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-012.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-013.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-014.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-015.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-016.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-017.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-018.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-019.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-020.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-021.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-022.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-023.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-024.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-025.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-026.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-027.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-028.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-029.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-030.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-031.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-032.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-033.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-034.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-035.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-036.png
+      ---------------------
+      Name: ../data/inter/frames/cars5/1/cars5-037.png
+      ---------------------
+    --------------------------------
+  Processing image 1 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-001.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-001-map.png'...
+    Corresponding segmentation map found.
+      (area: 6721 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 65
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 47508 votes.
+      from 449 matched codebook entries.
+      (discarded 35643 votes as outside of scale range).
+      (discarded 99245 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 51033 votes.
+      from 433 matched codebook entries.
+      (discarded 34022 votes as outside of scale range).
+      (discarded 95873 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (33573 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (33327 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.464313s (system), 1s (user)
+    Maxima Search    :      2.61417s (system), 2s (user)
+    Dupl.+GP Filter  :  2.67029e-05s (system), 0s (user)
+    Top-down Segment.:  1.14441e-05s (system), 0s (user)
+    TOTAL            :      3.07852s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:       2.1279s (system), 2s (user)
+  Matching          :     0.370939s (system), 0s (user)
+  Detectors         :      3.13547s (system), 3s (user)
+  MDL Selection     :  3.24249e-05s (system), 0s (user)
+  Postprocessing    :   0.00757217s (system), 0s (user)
+  TOTAL             :      5.64192s (system), 5s (user)
+----------------------
+
+  Processing image 2 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-002.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-002-map.png'...
+    Corresponding segmentation map found.
+      (area: 6783 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 61
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 49629 votes.
+      from 415 matched codebook entries.
+      (discarded 40070 votes as outside of scale range).
+      (discarded 79330 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 47921 votes.
+      from 401 matched codebook entries.
+      (discarded 39153 votes as outside of scale range).
+      (discarded 82282 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (33465 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (33192 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.463799s (system), 0s (user)
+    Maxima Search    :      2.55359s (system), 3s (user)
+    Dupl.+GP Filter  :  1.04904e-05s (system), 0s (user)
+    Top-down Segment.:  9.53674e-06s (system), 0s (user)
+    TOTAL            :      3.01741s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11609s (system), 3s (user)
+  Matching          :     0.346553s (system), 0s (user)
+  Detectors         :      3.07667s (system), 3s (user)
+  MDL Selection     :  3.91006e-05s (system), 0s (user)
+  Postprocessing    :     0.008111s (system), 0s (user)
+  TOTAL             :      5.54747s (system), 6s (user)
+----------------------
+
+  Processing image 3 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-003.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-003-map.png'...
+    Corresponding segmentation map found.
+      (area: 6866 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 69
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 54230 votes.
+      from 511 matched codebook entries.
+      (discarded 50763 votes as outside of scale range).
+      (discarded 90120 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 55258 votes.
+      from 446 matched codebook entries.
+      (discarded 45497 votes as outside of scale range).
+      (discarded 82838 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (33203 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32884 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.502312s (system), 0s (user)
+    Maxima Search    :      2.73356s (system), 3s (user)
+    Dupl.+GP Filter  :  9.53674e-06s (system), 0s (user)
+    Top-down Segment.:  1.14441e-05s (system), 0s (user)
+    TOTAL            :      3.23589s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.18808s (system), 2s (user)
+  Matching          :     0.394501s (system), 1s (user)
+  Detectors         :      3.29616s (system), 3s (user)
+  MDL Selection     :  4.00543e-05s (system), 0s (user)
+  Postprocessing    :    0.0101318s (system), 0s (user)
+  TOTAL             :      5.88892s (system), 6s (user)
+----------------------
+
+  Processing image 4 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-004.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-004-map.png'...
+    Corresponding segmentation map found.
+      (area: 6634 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 66
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 46992 votes.
+      from 425 matched codebook entries.
+      (discarded 37856 votes as outside of scale range).
+      (discarded 79035 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 52814 votes.
+      from 404 matched codebook entries.
+      (discarded 38042 votes as outside of scale range).
+      (discarded 75408 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (33345 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (33020 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :      0.47213s (system), 0s (user)
+    Maxima Search    :      2.52119s (system), 3s (user)
+    Dupl.+GP Filter  :  9.53674e-06s (system), 0s (user)
+    Top-down Segment.:  7.62939e-06s (system), 0s (user)
+    TOTAL            :      2.99334s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.12449s (system), 2s (user)
+  Matching          :     0.374506s (system), 1s (user)
+  Detectors         :      3.05282s (system), 3s (user)
+  MDL Selection     :  4.00543e-05s (system), 0s (user)
+  Postprocessing    :   0.00756264s (system), 0s (user)
+  TOTAL             :      5.55942s (system), 6s (user)
+----------------------
+
+  Processing image 5 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-005.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-005-map.png'...
+    Corresponding segmentation map found.
+      (area: 6669 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 69
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 52650 votes.
+      from 461 matched codebook entries.
+      (discarded 41481 votes as outside of scale range).
+      (discarded 92807 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 52895 votes.
+      from 439 matched codebook entries.
+      (discarded 41101 votes as outside of scale range).
+      (discarded 89476 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (33173 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32771 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.491962s (system), 1s (user)
+    Maxima Search    :      2.61578s (system), 3s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  1.14441e-05s (system), 0s (user)
+    TOTAL            :      3.10777s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11547s (system), 2s (user)
+  Matching          :     0.393063s (system), 0s (user)
+  Detectors         :      3.16886s (system), 4s (user)
+  MDL Selection     :  2.67029e-05s (system), 0s (user)
+  Postprocessing    :   0.00880051s (system), 0s (user)
+  TOTAL             :      5.68623s (system), 6s (user)
+----------------------
+
+  Processing image 6 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-006.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-006-map.png'...
+    Corresponding segmentation map found.
+      (area: 6686 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 66
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 52631 votes.
+      from 435 matched codebook entries.
+      (discarded 38566 votes as outside of scale range).
+      (discarded 79415 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 56501 votes.
+      from 432 matched codebook entries.
+      (discarded 38274 votes as outside of scale range).
+      (discarded 79213 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32781 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32631 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.506584s (system), 1s (user)
+    Maxima Search    :      2.77174s (system), 3s (user)
+    Dupl.+GP Filter  :  1.14441e-05s (system), 0s (user)
+    Top-down Segment.:  1.14441e-05s (system), 0s (user)
+    TOTAL            :      3.27835s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11547s (system), 2s (user)
+  Matching          :     0.376873s (system), 0s (user)
+  Detectors         :      3.33863s (system), 4s (user)
+  MDL Selection     :  2.67029e-05s (system), 0s (user)
+  Postprocessing    :   0.00901794s (system), 0s (user)
+  TOTAL             :      5.84002s (system), 6s (user)
+----------------------
+
+  Processing image 7 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-007.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-007-map.png'...
+    Corresponding segmentation map found.
+      (area: 6840 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 69
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 48108 votes.
+      from 475 matched codebook entries.
+      (discarded 45071 votes as outside of scale range).
+      (discarded 97560 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 51034 votes.
+      from 436 matched codebook entries.
+      (discarded 42569 votes as outside of scale range).
+      (discarded 82117 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32659 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32665 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.475323s (system), 1s (user)
+    Maxima Search    :      2.56662s (system), 2s (user)
+    Dupl.+GP Filter  :  1.14441e-05s (system), 0s (user)
+    Top-down Segment.:  1.14441e-05s (system), 0s (user)
+    TOTAL            :      3.04197s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11885s (system), 2s (user)
+  Matching          :     0.392803s (system), 0s (user)
+  Detectors         :      3.10216s (system), 3s (user)
+  MDL Selection     :  2.67029e-05s (system), 0s (user)
+  Postprocessing    :   0.00860977s (system), 0s (user)
+  TOTAL             :      5.62245s (system), 5s (user)
+----------------------
+
+  Processing image 8 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-008.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-008-map.png'...
+    Corresponding segmentation map found.
+      (area: 6793 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 70
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 51796 votes.
+      from 457 matched codebook entries.
+      (discarded 40417 votes as outside of scale range).
+      (discarded 79730 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 48709 votes.
+      from 404 matched codebook entries.
+      (discarded 41040 votes as outside of scale range).
+      (discarded 76881 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32623 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32653 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.473759s (system), 1s (user)
+    Maxima Search    :      2.62672s (system), 2s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.10051s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.13371s (system), 2s (user)
+  Matching          :     0.397865s (system), 0s (user)
+  Detectors         :      3.16113s (system), 3s (user)
+  MDL Selection     :  2.67029e-05s (system), 0s (user)
+  Postprocessing    :   0.00986862s (system), 0s (user)
+  TOTAL             :      5.70261s (system), 5s (user)
+----------------------
+
+  Processing image 9 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-009.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-009-map.png'...
+    Corresponding segmentation map found.
+      (area: 6815 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 73
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 58308 votes.
+      from 489 matched codebook entries.
+      (discarded 42678 votes as outside of scale range).
+      (discarded 82460 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 62038 votes.
+      from 444 matched codebook entries.
+      (discarded 39749 votes as outside of scale range).
+      (discarded 78290 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32612 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32434 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.534012s (system), 1s (user)
+    Maxima Search    :      3.05728s (system), 3s (user)
+    Dupl.+GP Filter  :  1.14441e-05s (system), 0s (user)
+    Top-down Segment.:  7.62939e-06s (system), 0s (user)
+    TOTAL            :      3.59131s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11594s (system), 3s (user)
+  Matching          :     0.415028s (system), 0s (user)
+  Detectors         :      3.65217s (system), 4s (user)
+  MDL Selection     :  2.67029e-05s (system), 0s (user)
+  Postprocessing    :   0.00928497s (system), 0s (user)
+  TOTAL             :      6.19246s (system), 7s (user)
+----------------------
+
+  Processing image 10 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-010.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-010-map.png'...
+    Corresponding segmentation map found.
+      (area: 6991 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 70
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 55005 votes.
+      from 446 matched codebook entries.
+      (discarded 40725 votes as outside of scale range).
+      (discarded 74029 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 63373 votes.
+      from 403 matched codebook entries.
+      (discarded 35674 votes as outside of scale range).
+      (discarded 55467 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32543 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32258 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.532013s (system), 1s (user)
+    Maxima Search    :      2.96609s (system), 3s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  1.14441e-05s (system), 0s (user)
+    TOTAL            :      3.49813s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11776s (system), 2s (user)
+  Matching          :     0.398224s (system), 0s (user)
+  Detectors         :      3.55975s (system), 4s (user)
+  MDL Selection     :  2.67029e-05s (system), 0s (user)
+  Postprocessing    :   0.00958633s (system), 0s (user)
+  TOTAL             :      6.08534s (system), 6s (user)
+----------------------
+
+  Processing image 11 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-011.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-011-map.png'...
+    Corresponding segmentation map found.
+      (area: 6923 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 74
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 58878 votes.
+      from 491 matched codebook entries.
+      (discarded 48774 votes as outside of scale range).
+      (discarded 90804 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 65274 votes.
+      from 459 matched codebook entries.
+      (discarded 45146 votes as outside of scale range).
+      (discarded 74815 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32533 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32294 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.555077s (system), 0s (user)
+    Maxima Search    :      2.98328s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.53838s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11566s (system), 2s (user)
+  Matching          :      0.42189s (system), 1s (user)
+  Detectors         :      3.59959s (system), 3s (user)
+  MDL Selection     :  2.28882e-05s (system), 0s (user)
+  Postprocessing    :    0.0100861s (system), 0s (user)
+  TOTAL             :      6.14726s (system), 6s (user)
+----------------------
+
+  Processing image 12 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-012.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-012-map.png'...
+    Corresponding segmentation map found.
+      (area: 6928 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 79
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 64185 votes.
+      from 529 matched codebook entries.
+      (discarded 51356 votes as outside of scale range).
+      (discarded 102480 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 63210 votes.
+      from 503 matched codebook entries.
+      (discarded 48541 votes as outside of scale range).
+      (discarded 93053 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32425 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32196 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.563034s (system), 0s (user)
+    Maxima Search    :      3.06232s (system), 4s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.62538s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10281s (system), 2s (user)
+  Matching          :     0.446541s (system), 1s (user)
+  Detectors         :      3.68781s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :    0.0109406s (system), 0s (user)
+  TOTAL             :      6.24813s (system), 7s (user)
+----------------------
+
+  Processing image 13 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-013.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-013-map.png'...
+    Corresponding segmentation map found.
+      (area: 7019 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 71
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 52826 votes.
+      from 462 matched codebook entries.
+      (discarded 47377 votes as outside of scale range).
+      (discarded 84064 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 49210 votes.
+      from 407 matched codebook entries.
+      (discarded 39705 votes as outside of scale range).
+      (discarded 73428 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32556 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32122 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.481102s (system), 1s (user)
+    Maxima Search    :      2.52994s (system), 2s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.01106s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10002s (system), 2s (user)
+  Matching          :     0.398773s (system), 0s (user)
+  Detectors         :      3.07166s (system), 3s (user)
+  MDL Selection     :   3.8147e-05s (system), 0s (user)
+  Postprocessing    :   0.00922394s (system), 0s (user)
+  TOTAL             :      5.57972s (system), 5s (user)
+----------------------
+
+  Processing image 14 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-014.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-014-map.png'...
+    Corresponding segmentation map found.
+      (area: 7036 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 77
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 52948 votes.
+      from 428 matched codebook entries.
+      (discarded 42635 votes as outside of scale range).
+      (discarded 68061 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 56372 votes.
+      from 427 matched codebook entries.
+      (discarded 39141 votes as outside of scale range).
+      (discarded 58378 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32629 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32165 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.501083s (system), 1s (user)
+    Maxima Search    :      2.68521s (system), 2s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.18632s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10787s (system), 2s (user)
+  Matching          :     0.432312s (system), 0s (user)
+  Detectors         :      3.24679s (system), 3s (user)
+  MDL Selection     :   3.8147e-05s (system), 0s (user)
+  Postprocessing    :   0.00897217s (system), 0s (user)
+  TOTAL             :      5.79599s (system), 5s (user)
+----------------------
+
+  Processing image 15 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-015.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-015-map.png'...
+    Corresponding segmentation map found.
+      (area: 7121 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 87
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 68825 votes.
+      from 539 matched codebook entries.
+      (discarded 55715 votes as outside of scale range).
+      (discarded 88778 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 70998 votes.
+      from 489 matched codebook entries.
+      (discarded 46639 votes as outside of scale range).
+      (discarded 73452 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32276 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32091 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.598976s (system), 1s (user)
+    Maxima Search    :      3.33232s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  7.62939e-06s (system), 0s (user)
+    TOTAL            :      3.93132s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10881s (system), 2s (user)
+  Matching          :     0.490982s (system), 0s (user)
+  Detectors         :       3.9938s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :    0.0115051s (system), 0s (user)
+  TOTAL             :      6.60513s (system), 6s (user)
+----------------------
+
+  Processing image 16 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-016.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-016-map.png'...
+    Corresponding segmentation map found.
+      (area: 7197 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 79
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 58722 votes.
+      from 428 matched codebook entries.
+      (discarded 36551 votes as outside of scale range).
+      (discarded 70864 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 57158 votes.
+      from 399 matched codebook entries.
+      (discarded 31984 votes as outside of scale range).
+      (discarded 63129 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32334 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32141 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.523247s (system), 1s (user)
+    Maxima Search    :      2.83212s (system), 2s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.35539s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:       2.1219s (system), 3s (user)
+  Matching          :     0.448532s (system), 0s (user)
+  Detectors         :       3.4167s (system), 3s (user)
+  MDL Selection     :  2.28882e-05s (system), 0s (user)
+  Postprocessing    :    0.0100708s (system), 0s (user)
+  TOTAL             :      5.99724s (system), 6s (user)
+----------------------
+
+  Processing image 17 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-017.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-017-map.png'...
+    Corresponding segmentation map found.
+      (area: 7352 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 81
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 63663 votes.
+      from 489 matched codebook entries.
+      (discarded 37038 votes as outside of scale range).
+      (discarded 87756 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 66360 votes.
+      from 478 matched codebook entries.
+      (discarded 36172 votes as outside of scale range).
+      (discarded 78214 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32581 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32178 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.565674s (system), 1s (user)
+    Maxima Search    :      3.06373s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  7.62939e-06s (system), 0s (user)
+    TOTAL            :      3.62943s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10285s (system), 2s (user)
+  Matching          :     0.458374s (system), 0s (user)
+  Detectors         :      3.69167s (system), 4s (user)
+  MDL Selection     :  2.28882e-05s (system), 0s (user)
+  Postprocessing    :    0.0109024s (system), 0s (user)
+  TOTAL             :      6.26382s (system), 6s (user)
+----------------------
+
+  Processing image 18 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-018.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-018-map.png'...
+    Corresponding segmentation map found.
+      (area: 7234 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 77
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 67875 votes.
+      from 472 matched codebook entries.
+      (discarded 42726 votes as outside of scale range).
+      (discarded 79986 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 61679 votes.
+      from 442 matched codebook entries.
+      (discarded 39220 votes as outside of scale range).
+      (discarded 75226 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32507 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (32243 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.564156s (system), 0s (user)
+    Maxima Search    :       3.0246s (system), 3s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  7.62939e-06s (system), 0s (user)
+    TOTAL            :      3.58877s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.08643s (system), 2s (user)
+  Matching          :      0.43692s (system), 1s (user)
+  Detectors         :      3.65164s (system), 3s (user)
+  MDL Selection     :  2.28882e-05s (system), 0s (user)
+  Postprocessing    :    0.0106735s (system), 0s (user)
+  TOTAL             :      6.18568s (system), 6s (user)
+----------------------
+
+  Processing image 19 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-019.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-019-map.png'...
+    Corresponding segmentation map found.
+      (area: 7336 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 81
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 61888 votes.
+      from 522 matched codebook entries.
+      (discarded 47664 votes as outside of scale range).
+      (discarded 89585 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 64407 votes.
+      from 501 matched codebook entries.
+      (discarded 45216 votes as outside of scale range).
+      (discarded 80317 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31985 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31791 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.559074s (system), 1s (user)
+    Maxima Search    :      2.99888s (system), 3s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.55798s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.09815s (system), 3s (user)
+  Matching          :     0.456795s (system), 0s (user)
+  Detectors         :      3.61978s (system), 4s (user)
+  MDL Selection     :  2.28882e-05s (system), 0s (user)
+  Postprocessing    :    0.0102386s (system), 0s (user)
+  TOTAL             :        6.185s (system), 7s (user)
+----------------------
+
+  Processing image 20 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-020.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-020-map.png'...
+    Corresponding segmentation map found.
+      (area: 7202 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 79
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 69395 votes.
+      from 476 matched codebook entries.
+      (discarded 42166 votes as outside of scale range).
+      (discarded 68312 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 69067 votes.
+      from 454 matched codebook entries.
+      (discarded 38322 votes as outside of scale range).
+      (discarded 63410 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31872 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31856 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :      0.59169s (system), 1s (user)
+    Maxima Search    :      3.17262s (system), 3s (user)
+    Dupl.+GP Filter  :  7.62939e-06s (system), 0s (user)
+    Top-down Segment.:  7.62939e-06s (system), 0s (user)
+    TOTAL            :      3.76432s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.09855s (system), 2s (user)
+  Matching          :     0.447411s (system), 0s (user)
+  Detectors         :      3.82753s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :    0.0117188s (system), 0s (user)
+  TOTAL             :      6.38524s (system), 6s (user)
+----------------------
+
+  Processing image 21 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-021.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-021-map.png'...
+    Corresponding segmentation map found.
+      (area: 7265 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 82
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 68829 votes.
+      from 501 matched codebook entries.
+      (discarded 33189 votes as outside of scale range).
+      (discarded 79893 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 70919 votes.
+      from 480 matched codebook entries.
+      (discarded 33793 votes as outside of scale range).
+      (discarded 71682 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32002 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31953 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.602005s (system), 1s (user)
+    Maxima Search    :       3.2236s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.82564s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.12187s (system), 3s (user)
+  Matching          :     0.464302s (system), 0s (user)
+  Detectors         :      3.88878s (system), 4s (user)
+  MDL Selection     :  1.52588e-05s (system), 0s (user)
+  Postprocessing    :    0.0119476s (system), 0s (user)
+  TOTAL             :      6.48692s (system), 7s (user)
+----------------------
+
+  Processing image 22 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-022.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-022-map.png'...
+    Corresponding segmentation map found.
+      (area: 7256 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 80
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 65117 votes.
+      from 513 matched codebook entries.
+      (discarded 34377 votes as outside of scale range).
+      (discarded 83424 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 68160 votes.
+      from 481 matched codebook entries.
+      (discarded 35466 votes as outside of scale range).
+      (discarded 74365 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31874 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31784 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :      0.58139s (system), 0s (user)
+    Maxima Search    :      3.28128s (system), 4s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :       3.8627s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.09555s (system), 2s (user)
+  Matching          :     0.454361s (system), 1s (user)
+  Detectors         :      3.92511s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :    0.0107117s (system), 0s (user)
+  TOTAL             :      6.48576s (system), 7s (user)
+----------------------
+
+  Processing image 23 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-023.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-023-map.png'...
+    Corresponding segmentation map found.
+      (area: 7383 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 77
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 66940 votes.
+      from 483 matched codebook entries.
+      (discarded 37745 votes as outside of scale range).
+      (discarded 63639 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 69354 votes.
+      from 432 matched codebook entries.
+      (discarded 34617 votes as outside of scale range).
+      (discarded 55679 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31847 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31558 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.587555s (system), 1s (user)
+    Maxima Search    :      3.23683s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:            0s (system), 0s (user)
+    TOTAL            :       3.8244s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.13412s (system), 2s (user)
+  Matching          :     0.436539s (system), 0s (user)
+  Detectors         :       3.8866s (system), 4s (user)
+  MDL Selection     :  4.57764e-05s (system), 0s (user)
+  Postprocessing    :    0.0115356s (system), 0s (user)
+  TOTAL             :      6.46884s (system), 6s (user)
+----------------------
+
+  Processing image 24 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-024.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-024-map.png'...
+    Corresponding segmentation map found.
+      (area: 7425 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 83
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 73722 votes.
+      from 501 matched codebook entries.
+      (discarded 37767 votes as outside of scale range).
+      (discarded 68501 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 71356 votes.
+      from 461 matched codebook entries.
+      (discarded 35096 votes as outside of scale range).
+      (discarded 61722 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31733 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31519 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.614914s (system), 1s (user)
+    Maxima Search    :       3.4212s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:            0s (system), 0s (user)
+    TOTAL            :      4.03613s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.13367s (system), 3s (user)
+  Matching          :     0.464264s (system), 0s (user)
+  Detectors         :      4.09978s (system), 4s (user)
+  MDL Selection     :  4.57764e-05s (system), 0s (user)
+  Postprocessing    :    0.0118866s (system), 0s (user)
+  TOTAL             :      6.70964s (system), 7s (user)
+----------------------
+
+  Processing image 25 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-025.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-025-map.png'...
+    Corresponding segmentation map found.
+      (area: 7463 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 84
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 66769 votes.
+      from 526 matched codebook entries.
+      (discarded 39595 votes as outside of scale range).
+      (discarded 73454 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 73755 votes.
+      from 470 matched codebook entries.
+      (discarded 36823 votes as outside of scale range).
+      (discarded 56017 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31730 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31618 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.604965s (system), 1s (user)
+    Maxima Search    :      3.40155s (system), 3s (user)
+    Dupl.+GP Filter  :            0s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      4.00653s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11794s (system), 2s (user)
+  Matching          :     0.480392s (system), 1s (user)
+  Detectors         :      4.06943s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :     0.011261s (system), 0s (user)
+  TOTAL             :      6.67905s (system), 7s (user)
+----------------------
+
+  Processing image 26 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-026.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-026-map.png'...
+    Corresponding segmentation map found.
+      (area: 7289 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 75
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 60079 votes.
+      from 502 matched codebook entries.
+      (discarded 40579 votes as outside of scale range).
+      (discarded 73406 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 60697 votes.
+      from 443 matched codebook entries.
+      (discarded 34700 votes as outside of scale range).
+      (discarded 62212 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32128 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31981 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.545181s (system), 0s (user)
+    Maxima Search    :       2.9843s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:            0s (system), 0s (user)
+    TOTAL            :       3.5295s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.09836s (system), 2s (user)
+  Matching          :     0.426636s (system), 1s (user)
+  Detectors         :      3.59045s (system), 3s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :   0.00947571s (system), 0s (user)
+  TOTAL             :      6.12495s (system), 6s (user)
+----------------------
+
+  Processing image 27 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-027.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-027-map.png'...
+    Corresponding segmentation map found.
+      (area: 7476 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 75
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 56870 votes.
+      from 496 matched codebook entries.
+      (discarded 32980 votes as outside of scale range).
+      (discarded 70449 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 57774 votes.
+      from 429 matched codebook entries.
+      (discarded 28688 votes as outside of scale range).
+      (discarded 59905 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32051 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31637 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.519714s (system), 1s (user)
+    Maxima Search    :      2.80904s (system), 2s (user)
+    Dupl.+GP Filter  :            0s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.32877s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10893s (system), 3s (user)
+  Matching          :     0.424088s (system), 0s (user)
+  Detectors         :      3.39082s (system), 3s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :   0.00987244s (system), 0s (user)
+  TOTAL             :      5.93375s (system), 6s (user)
+----------------------
+
+  Processing image 28 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-028.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-028-map.png'...
+    Corresponding segmentation map found.
+      (area: 7557 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 75
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 57698 votes.
+      from 478 matched codebook entries.
+      (discarded 29393 votes as outside of scale range).
+      (discarded 73754 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 62333 votes.
+      from 434 matched codebook entries.
+      (discarded 29810 votes as outside of scale range).
+      (discarded 65838 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (32186 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31708 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.531616s (system), 1s (user)
+    Maxima Search    :       2.9886s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.52025s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.08145s (system), 2s (user)
+  Matching          :     0.423874s (system), 0s (user)
+  Detectors         :      3.58099s (system), 4s (user)
+  MDL Selection     :  1.52588e-05s (system), 0s (user)
+  Postprocessing    :    0.0092926s (system), 0s (user)
+  TOTAL             :      6.09564s (system), 6s (user)
+----------------------
+
+  Processing image 29 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-029.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-029-map.png'...
+    Corresponding segmentation map found.
+      (area: 7601 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 79
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 59843 votes.
+      from 506 matched codebook entries.
+      (discarded 34759 votes as outside of scale range).
+      (discarded 70021 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 65325 votes.
+      from 454 matched codebook entries.
+      (discarded 31089 votes as outside of scale range).
+      (discarded 58188 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31685 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31352 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.550262s (system), 1s (user)
+    Maxima Search    :       3.0974s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.64769s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.09895s (system), 2s (user)
+  Matching          :      0.44664s (system), 0s (user)
+  Detectors         :      3.70932s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :    0.0098114s (system), 0s (user)
+  TOTAL             :      6.26476s (system), 6s (user)
+----------------------
+
+  Processing image 30 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-030.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-030-map.png'...
+    Corresponding segmentation map found.
+      (area: 7622 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 81
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 59905 votes.
+      from 535 matched codebook entries.
+      (discarded 33099 votes as outside of scale range).
+      (discarded 75187 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 67725 votes.
+      from 453 matched codebook entries.
+      (discarded 29773 votes as outside of scale range).
+      (discarded 55817 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31769 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31637 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.565704s (system), 1s (user)
+    Maxima Search    :      3.15616s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:            0s (system), 0s (user)
+    TOTAL            :      3.72188s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11205s (system), 2s (user)
+  Matching          :     0.460556s (system), 1s (user)
+  Detectors         :      3.78485s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :    0.0102692s (system), 0s (user)
+  TOTAL             :      6.36775s (system), 7s (user)
+----------------------
+
+  Processing image 31 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-031.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-031-map.png'...
+    Corresponding segmentation map found.
+      (area: 7647 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 80
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 62199 votes.
+      from 517 matched codebook entries.
+      (discarded 36669 votes as outside of scale range).
+      (discarded 69154 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 69299 votes.
+      from 448 matched codebook entries.
+      (discarded 30608 votes as outside of scale range).
+      (discarded 53691 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31693 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31571 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.571594s (system), 0s (user)
+    Maxima Search    :      3.22763s (system), 3s (user)
+    Dupl.+GP Filter  :  3.05176e-05s (system), 0s (user)
+    Top-down Segment.:            0s (system), 0s (user)
+    TOTAL            :      3.79926s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.13277s (system), 2s (user)
+  Matching          :     0.453613s (system), 0s (user)
+  Detectors         :      3.86247s (system), 4s (user)
+  MDL Selection     :  4.57764e-05s (system), 0s (user)
+  Postprocessing    :   0.00994873s (system), 0s (user)
+  TOTAL             :      6.45885s (system), 6s (user)
+----------------------
+
+  Processing image 32 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-032.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-032-map.png'...
+    Corresponding segmentation map found.
+      (area: 7656 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 81
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 58366 votes.
+      from 554 matched codebook entries.
+      (discarded 29700 votes as outside of scale range).
+      (discarded 91505 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 62158 votes.
+      from 521 matched codebook entries.
+      (discarded 27459 votes as outside of scale range).
+      (discarded 79785 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31711 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31538 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.543747s (system), 1s (user)
+    Maxima Search    :      2.97287s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:            0s (system), 0s (user)
+    TOTAL            :      3.51663s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.11052s (system), 2s (user)
+  Matching          :     0.457169s (system), 0s (user)
+  Detectors         :      3.57802s (system), 4s (user)
+  MDL Selection     :  4.57764e-05s (system), 0s (user)
+  Postprocessing    :   0.00956726s (system), 0s (user)
+  TOTAL             :      6.15532s (system), 6s (user)
+----------------------
+
+  Processing image 33 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-033.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-033-map.png'...
+    Corresponding segmentation map found.
+      (area: 7655 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 76
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 59439 votes.
+      from 506 matched codebook entries.
+      (discarded 27157 votes as outside of scale range).
+      (discarded 89461 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 59539 votes.
+      from 471 matched codebook entries.
+      (discarded 22133 votes as outside of scale range).
+      (discarded 81830 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31908 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31847 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.535385s (system), 1s (user)
+    Maxima Search    :      2.90007s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.43549s (system), 4s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10843s (system), 2s (user)
+  Matching          :     0.430923s (system), 0s (user)
+  Detectors         :      3.49684s (system), 4s (user)
+  MDL Selection     :  3.05176e-05s (system), 0s (user)
+  Postprocessing    :   0.00942993s (system), 0s (user)
+  TOTAL             :      6.04567s (system), 6s (user)
+----------------------
+
+  Processing image 34 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-034.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-034-map.png'...
+    Corresponding segmentation map found.
+      (area: 7942 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 81
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 59358 votes.
+      from 587 matched codebook entries.
+      (discarded 33144 votes as outside of scale range).
+      (discarded 96561 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 59806 votes.
+      from 507 matched codebook entries.
+      (discarded 29199 votes as outside of scale range).
+      (discarded 76307 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31786 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31627 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :     0.535049s (system), 0s (user)
+    Maxima Search    :      2.94246s (system), 3s (user)
+    Dupl.+GP Filter  :  1.52588e-05s (system), 0s (user)
+    Top-down Segment.:  1.52588e-05s (system), 0s (user)
+    TOTAL            :      3.47754s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:      2.10155s (system), 2s (user)
+  Matching          :     0.459579s (system), 1s (user)
+  Detectors         :      3.53934s (system), 3s (user)
+  MDL Selection     :  1.52588e-05s (system), 0s (user)
+  Postprocessing    :     0.010025s (system), 0s (user)
+  TOTAL             :      6.11052s (system), 6s (user)
+----------------------
+
+  Processing image 35 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-035.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-035-map.png'...
+    Corresponding segmentation map found.
+      (area: 7806 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 82
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 55166 votes.
+      from 555 matched codebook entries.
+      (discarded 32180 votes as outside of scale range).
+      (discarded 104448 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 55550 votes.
+      from 514 matched codebook entries.
+      (discarded 28878 votes as outside of scale range).
+      (discarded 96719 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31659 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31419 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+   1.   Score=1.8413: Pos(146,225), Cat.=0, Scale=0.979
+   2.   Score=1.7367: Pos(145,227), Cat.=0, Scale=0.952
+=======================================
+
+  Computing top-down segmentations...
+  Computing top-down segmentations... 1/1
+  ----------------------
+  Time spent for...
+    Voting           :        0.512s (system), 0s (user)
+    Maxima Search    :         2.75s (system), 3s (user)
+    Dupl.+GP Filter  :     1.53e-05s (system), 0s (user)
+    Top-down Segment.:        0.099s (system), 0s (user)
+    TOTAL            :         3.36s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 1
+    #segm:  1
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+   1.   Score=1.8413: Pos(493,225), Cat.=0, Scale=0.979
+          FigArea=5752, Sum(pfig)=357, Score=626
+  Selected hypothesis 1
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+..=======================================
+Final Hypotheses:
+   1.   Score=1.8413 (MDL=626.87): Pos(493,225), Cat.=0, Scale=0.979
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:          2.1s (system), 2s (user)
+  Matching          :        0.468s (system), 1s (user)
+  Detectors         :         3.43s (system), 3s (user)
+  MDL Selection     :     7.63e-05s (system), 0s (user)
+  Postprocessing    :       0.0252s (system), 0s (user)
+  TOTAL             :         6.02s (system), 6s (user)
+----------------------
+
+  Processing image 36 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-036.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-036-map.png'...
+    Corresponding segmentation map found.
+      (area: 7.96e+03 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 73
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 47519 votes.
+      from 478 matched codebook entries.
+      (discarded 27855 votes as outside of scale range).
+      (discarded 76490 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 50100 votes.
+      from 438 matched codebook entries.
+      (discarded 24099 votes as outside of scale range).
+      (discarded 69379 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31912 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31743 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :        0.471s (system), 1s (user)
+    Maxima Search    :         2.47s (system), 2s (user)
+    Dupl.+GP Filter  :     1.53e-05s (system), 0s (user)
+    Top-down Segment.:     1.53e-05s (system), 0s (user)
+    TOTAL            :         2.94s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:         2.11s (system), 2s (user)
+  Matching          :        0.417s (system), 0s (user)
+  Detectors         :            3s (system), 3s (user)
+  MDL Selection     :     1.53e-05s (system), 0s (user)
+  Postprocessing    :      0.00841s (system), 0s (user)
+  TOTAL             :         5.54s (system), 5s (user)
+----------------------
+
+  Processing image 37 of 37...
+
+  Extracting image features...
+  Loading image 'files/../data/inter/frames/cars5/1/cars5-037.png'...
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/cars5-037-map.png'...
+    Corresponding segmentation map found.
+      (area: 8.05e+03 pixels).
+    Searching for file 'files/../data/inter/frames/cars5/1/maps/camera.00005'...
+    Not found. Trying default calibration file...
+    using better RGB->gray conversion formula...
+  done.
+  Collecting Patches with method #5
+FeatureCue::extractAllPatches() called.
+  Using only figure area for patch extraction ...
+  Number of image patches taken: 86
+  Normalizing the features...
+  done.
+  Comparing image patches with all matches...
+Image size is: (640,480)
+
+  Applying detector 1 for '/'...
+  Filling in the voting space...
+    Generated 56348 votes.
+      from 577 matched codebook entries.
+      (discarded 43032 votes as outside of scale range).
+      (discarded 95252 votes because of insufficient weight).
+  done.
+  Filling in the voting space...
+    Generated 55829 votes.
+      from 559 matched codebook entries.
+      (discarded 40532 votes as outside of scale range).
+      (discarded 96758 votes because of insufficient weight).
+  done.
+================================
+  Collecting bin votes...
+  done.
+    (31691 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Collecting bin votes...
+  done.
+    (31484 out of 39936 bins were empty).
+  Refining candidate maxima...
+  done.
+=======================================
+Single-Patch Voting Hypotheses:
+=======================================
+
+  Computing top-down segmentations...
+
+  ----------------------
+  Time spent for...
+    Voting           :        0.513s (system), 0s (user)
+    Maxima Search    :         2.82s (system), 3s (user)
+    Dupl.+GP Filter  :     1.53e-05s (system), 0s (user)
+    Top-down Segment.:            0s (system), 0s (user)
+    TOTAL            :         3.33s (system), 3s (user)
+  ----------------------
+  adding the result hypothesis to the list...
+    #hypos: 0
+    #segm:  0
+  Performing MDL Selection...
+=======================================
+MDL Hypothesis Selection:
+=======================================
+  Checking for overlapping hypotheses...
+  Preparing result output...
+=======================================
+Final Hypotheses:
+=======================================
+
+----------------------
+Time spent for...
+  Feature extraction:         2.11s (system), 2s (user)
+  Matching          :        0.488s (system), 1s (user)
+  Detectors         :          3.4s (system), 3s (user)
+  MDL Selection     :      6.1e-05s (system), 0s (user)
+  Postprocessing    :      0.00978s (system), 0s (user)
+  TOTAL             :            6s (system), 6s (user)
+----------------------
+
+================================

@@ -1,0 +1,6 @@
+Tracking time: 934.661 seconds
+Clustering
+  - Building graph time: 4.71606 seconds
+  - Split tracks time: 7.25912 seconds
+  - Merge clusters time: 0.449382 seconds
+Clustering time: 12.4249 seconds

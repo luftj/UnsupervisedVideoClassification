@@ -1,0 +1,40 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            { 
+                "name": "(gdb) Attach",
+                "type": "cppdbg",
+                "request": "attach",
+                // "program": "${workspaceFolder}/clusterer9/clusterer",
+                //"program": "${workspaceFolder}/mcmatcher3/mcmatcher",
+                "program": "${workspaceFolder}/scmatcher9/scmatcher",
+                "processId": "${command:pickProcess}",
+                "MIMode": "gdb"
+            },
+            {
+                "name": "(gdb) Launch",
+                "type": "cppdbg",
+                "request": "launch",
+                // "program": "${workspaceFolder}/clusterer9/clusterer",
+                // "args": [ "-nw", "-vv", "-p", "../files/codebooks/cars2_1.params", "-idl", "../files/cars2_1.idl"],
+                "program": "${workspaceFolder}/mcmatcher3/mcmatcher",
+                //"program": "${workspaceFolder}/scmatcher9/scmatcher",
+                //"args": [ "-nw", "-vv", "-det", "../files/codebooks/cars3_2/cars3_2.det", "-odir", "../data/output/results/cars3", "-idl", "../files/cars3.idl"],// "-minsc", "0.5", "-maxsc", "3", "-t", "0.3"],
+                 "args": [ "-vv", "-cd", "files/codebooks/cars5_2-cars4_3/cars5_2 cars4_3.det", "files/codebooks/cars5_2-cars4_3/cars5_2-cars4_3-no1pc.flz", "files/codebooks/cars5_2-cars4_3/cars5_2-cars4_3-no1pc_occ.flz"],
+//                    "../files/mergedCodebooks/newDet2.det", "../files/codebooks/MYCODEBOOK-no1pc.flz", "../files/codebooks/MYCODEBOOK-no1pc_occ.flz"],
+                //"args": [ "-co", "files/codebooks/cars5_2-cars4_3/cars5_2-cars4_3-no1pc.flz" ,"files/cars5_2-cars4_3.idl", "files/codebooks/cars5_2-cars4_3/cars5_2-cars4_3-no1pc_occ.flz" ],
+                "stopAtEntry": false,
+                "cwd": "${workspaceRoot}/..",
+                "environment": [],
+                "externalConsole": false,
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        ]
+}

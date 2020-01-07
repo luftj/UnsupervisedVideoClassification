@@ -1,0 +1,56 @@
+
+*** Section DetectorGUI ***
+m_qsCategName: 
+m_qsPoseName: 
+m_dAreaFactor: 1
+m_dRealHeight: 1.5
+m_bUseHeightVar: 0
+m_dHeightVar: 0.05
+m_dDistCenter: 2.7
+m_bApplyGPFilter: 0
+m_bProcessBothDir: 0
+m_nNumCues: 1
+m_sCBFile: files/codebooks/cars4_3/cars4_3-no1pc.flz
+m_sOccFile: files/codebooks/cars4_3/cars4_3-no1pc_occ.flz
+
+*** Section RecoGUI ***
+m_bRestrictScale: 1
+m_nMatchWeighting: 0
+m_dGibbsConst: 2
+m_nKernelType: 0
+m_dMSMESizeX: 10
+m_dMSMESizeY: 10
+m_dMSMESizeS: 0.1
+m_dMSMESizeR: 10
+m_dMSMESizeA: 10
+m_dMSMESizeP: 1
+m_bAdaptiveScale: 1
+m_dAdaptMinScale: 1
+m_bNormScalePFig2: 1
+m_dMinVoteWeight: 0.0002
+m_dMaxVoteWeight: 0.05
+m_bUseFastMSME: 0
+m_dScoreThreshSingle: 2
+m_nObjWidth: 80
+m_nObjHeight: 200
+m_bExtendSearch: 0
+m_dSearchRange: 0.25
+m_dRecoScaleMin: 0.3
+m_dRecoScaleMax: 1.5
+m_bRecoRotInv: 0
+m_bRecoverRotation: 0
+m_dRecoRotMin: -45
+m_dRecoRotMax: 45
+m_bUseAspect: 0
+m_dRecoAspMin: 10
+m_dRecoAspMax: 80
+m_nFixObjDim: 0
+m_bDoMDL: 1
+m_bRejectOverlap: 0
+m_dMaxOverlap: 0.2
+m_bRejectPFig: 1
+m_dMinPFig: 400
+m_dMinPFigRefined: 45000
+m_dWeightPFig: 0.95
+m_dAdaptMinMDLScale: 1
+m_bResampleHypos: 0

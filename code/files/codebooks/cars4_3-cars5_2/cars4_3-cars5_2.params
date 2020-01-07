@@ -1,0 +1,88 @@
+
+*** Section clusterer-interface ***
+
+*** Section scmatcher-interface ***
+m_dRejectionThresh: 0.7
+m_dFeatureSimFact: 800
+
+*** Section FeatureGUI ***
+m_nPatchExtMethod: 5
+m_nStepSize: 2
+m_bUseFigureOnly: 1
+m_nFeatureType: 0
+m_bMakeRotInv: 0
+m_dSigma1: 3
+m_dSigma2: 2
+m_dAlpha: 0.06
+m_dThreshHar: 100
+m_nScaleOctaves: 5
+m_nLevsPerOctave: 3
+m_dScaleSigma0: 1
+m_dThreshEdog: 10
+m_dThreshSURF: 1000
+m_nMinFigurePixels: 50
+m_nFigureThresh: 220
+m_nPatchSize: 12
+m_dMinScale: 1.9
+m_dMaxScale: 16
+m_bFilterPatches: 0
+
+*** Section ClusterGUI ***
+m_nClusterMethod: 2
+m_bUsePCA: 0
+m_dPCAEnergy: 0.9
+m_dSimilarity: 0.7
+m_dFeatureSimFact: 800
+m_nMaxNodeSize: 400
+m_nNumClusters: 7
+m_dEps: 0.01
+m_nMaxIter: 25
+m_dCompressionRatio: 5
+m_dSimLevel: 0.6
+m_nReconstMethod: 0
+
+*** Section MatchingGUI ***
+m_nCompareSelect: 0
+m_dRejectionThresh: 0.7
+m_dFeatureSimFact: 800
+
+*** Section ClusterGUI ***
+m_nClusterMethod: 2
+m_bUsePCA: 0
+m_dPCAEnergy: 0.9
+m_dSimilarity: 0.7
+m_dFeatureSimFact: 800
+m_nMaxNodeSize: 400
+m_nNumClusters: 7
+m_dEps: 0.01
+m_nMaxIter: 25
+m_dCompressionRatio: 5
+m_dSimLevel: 0.6
+m_nReconstMethod: 0
+
+*** Section MatchingGUI ***
+m_nCompareSelect: 0
+m_dRejectionThresh: 0.7
+m_dFeatureSimFact: 800
+
+*** Section FeatureGUI ***
+m_nPatchExtMethod: 5
+m_nStepSize: 2
+m_bUseFigureOnly: 1
+m_nFeatureType: 0
+m_bMakeRotInv: 0
+m_dSigma1: 3
+m_dSigma2: 2
+m_dAlpha: 0.06
+m_dThreshHar: 100
+m_nScaleOctaves: 5
+m_nLevsPerOctave: 3
+m_dScaleSigma0: 1
+m_dThreshEdog: 10
+m_dThreshSURF: 1000
+m_nMinFigurePixels: 50
+m_nFigureThresh: 220
+m_nPatchSize: 12
+m_dMinScale: 1.9
+m_dMaxScale: 16
+m_bFilterPatches: 0

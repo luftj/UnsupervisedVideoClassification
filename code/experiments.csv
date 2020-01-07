@@ -1,0 +1,77 @@
+Exp,Dataset,"trajectory
+ Spacing","segmentation 
+regularisation","Figure
+Area only","Min
+Pfig",ThreshSingle,"MDL
+Tresh","Merge
+Thresh","IoU
+Thresh","Scale
+Min","Scale
+Max",bbox,"iterations
+Convergence",Results,Comments
+1,"cars1,cars10,cars2,cars2_06,cars2_07,cars3,cars4,cars5,cars6",8,60,1,400,2,400,,0.5,0.3,1.5,,2,"Cars5_2-cars4_3
+cars2_07_1-cars1_2
+Cars2_06_1-cars3_2-cars5_1",
+2,"cars1,cars10,cars2,cars2_06,cars2_07,cars3,cars4,cars5,cars6",8,60,1,400,1.7,400,0.15,0.5,0.3,1.5,,2,"cars4_3-cars5_2
+cars2_07_1-cars1_2
+cars5_1-cars3_2-cars2_06_1-cars6_1","Cars2_06_2 similar to both cars4_3 and cars5_2, but not vice versa;
+Some more good detections, but not consistent through sequence"
+3,"cars2,cars2_06,cars2_07,cars3,cars4,cars5,cars6",8,60,1,400,1.5,400,0.15,0.5,0.3,1.5,,3,"cars2_06_1-cars6_1
+cars5_1-cars3_2-cars5_1-cars3_2-cars4_2-cars2_06_2-cars5_2-cars4_3","removed cars1 and cars10 for the time being, because they don�t get detected with current scale range (apart from cars1_2) and have problematic scale and segmentation
+Some Double detections
+Cars2_06_1, cars2_07_1 have quite good detections too
+Erronuous merge? Double cars5_1 and cars3_2"
+4,"cars2,cars2_06,cars2_07,cars3,cars4,cars5,cars6",8,60,1,400,1.5,400,0.15,0.5,0.3,1.5,,4,"cars2_1
+cars2_2
+cars2_07_1
+cars2_07_2
+cars3_1
+cars2_06_2-cars5_2-cars4_3
+cars5_1-cars3_2-cars4_2-cars2_06_1-cars6_1",Cars4_2 is a person ? shouldn�t merge!
+5,"cars2,cars2_06,cars2_07,cars3,cars4,cars5,cars6",8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,3,"cars2_1
+cars2_2
+Cars2_06_2
+cars2_07_1
+cars2_07_2
+cars3_1
+Cars4_2
+cars5_2-cars4_3
+cars5_1-cars3_2-cars2_06_1-cars6_1",
+6,Mit08_0812,8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,,"mit08_0812_1
+mit08_0812_3
+mit08_0812_7-mit08_0812_4-mit08_0812_2","Very bad tracking results! Too high fps?
+Detections stick to certain position, even if object moves further along"
+7,Mit08_0812_2,4,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,1,-,"Bad tracking: multiple objects as one, often not closed"
+8,Mit08_0812_2,4,40,1,400,1.5,400,0.15,0.5,0.3,1.5,,1,-,"Bad tracking: multiple objects as one, often not closed"
+9,"carsbus,carsTurning",8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,,,"carsbus: missed car in tracking, carsTurning: 2 cars tracked as one"
+10,Virat0500_01,8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,1,Virat0500_4-virat0500_5,"missing frames in segmentations ? strange detections
+6-10 are empty
+"
+10a,test for 10 with virat0500_01_5-virat0500_01_04 on virat0500,,,,,1,0,,,0.1,1,,,,"few times detection in bushes
+Phantom detection of combined objects
+Double and triple detections"
+10b,test for 10 with virat0500_01_5-virat0500_01_04 on virat0500,,,,,1.1,400,,,0.1,1,,,,"233 detections, 75 training sequence, 12 other sequences, 11 phantom, 8 middle detection, 3 false positives , rest untracked objects"
+10c,test for 10 with virat0500_01_5-virat0500_01_04 on virat0500,,,,,1.5,400,,,0.1,1,,,,"199 detections, 76 training sequence, 5 other sequences, no false positives"
+11,"As 10, but with fixed segmentation",8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,1,Virat0500_4-virat0500_5,"no obvious change from 10, 8 still wrong detections ? segmentation?"
+12,"cars1,cars10,cars2,cars2_06,cars2_07,cars3,cars4,cars5,cars6,carsbus,carsTurning",8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,3,"carsbus_1-cars1_1
+cars3_2-cars5_1-cars2_06_1-cars6_1
+cars2_06_2-cars5_2-cars4_3
+carsbus_2-carsTurning_1-cars2_2-cars10_2",
+13,"As 12 but with cars7,cars8,cars9 and shapecontext features (carsall.params)",,,,,,,,,,,200x80,4,"cars3_1-cars2_1
+cars2_06_2-cars4_3-cars5_2 
+cars9_1-carsbus_2-cars10_2 
+cars2_07_1-cars2_07_2-carsTurning_1 
+Cars2_06_1-cars5_1-cars2_2-cars7_1-carsbus_1-cars3_2-cars6_1 ",
+14,As 11 but with shapecontext features (carsall.params) and optimised frames,8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,100x60,3,"virat0500_5-virat0500_4
+virat0500_8-virat0500_7
+virat0500_2-virat0500_1","7_8 white cars (detects BG too), other dark cars"
+16,test for 12 with det carsbus_2-carsTurning_1-cars2_2-cars10_2,,,,,,,,,,,,,,
+17,"As 16, but w cars2_06_2-cars5_2-cars4_3",8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,,,
+18,"As 16, but w cars3_2-cars5_1-cars2_06_1-cars6_1",8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,,,
+19,"As 16, but w carsbus_1-cars1_1",8,60,1,625,1.5,400,0.15,0.5,0.3,1.5,,,,
+20,virat040103_00,,,,,,,,,,,,,,
+21,Virat040103_00 but 480p,,,,,,,,,,,,,,
+22,test for 14,,,,625,1.5,400,,,,,,,"7_8 1075 detections with bg-cars, others only detect training data",
+23,test for 14,,,,625,1.1,400,,,,,100x60,," 5_4 with 131 dets, 55 train, 2 test, 1 middle, 5 FP",
+24,test for 13,,,,625,1.1,400,,,,,200x80,,,lots of FP
+25,,,,,,,,,,,,,,,
