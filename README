@@ -1,0 +1,154 @@
+Digital hand-in supplementary to the thesis
+
+=======================================================
+"Unsupervised learning of object categories from video"
+=======================================================
+
+by Jonas Luft,
+as a partial fulfilment of the degree of "Master of Science" at TU Berlin, 2018.
+Contact the author here via github
+
+Disclaimer
+----------
+THIS CODE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTIES. Use at your own risk.  
+The package contains various third-party parts published under varying licenses.
+Notably: 
+ISM code developed at ETH Zurich in 2001-2004, 2006-2008 and at TU Darmstadt in 2004-2005, copyrighted 2001-2005 by Bastian Leibe. With slight alterations made by us for research purposes only.
+Motion segmentation code copyrighted 2013 by Peter Ochs.
+Please refer to files ISM/readme.txt and MotSeg/readme.txt respectively.
+Sample data from Hopkins155 dataset:
+R. Tron and R. Vidal. A Benchmark for the Comparison of 3-D Motion Segmentation Algorithms.
+IEEE International Conference on Computer Vision and Pattern Recognition, June 2007.
+
+Use of our programs and files is made available for non-commercial purposes.
+
+Important files
+===============
+When problems occur with motion segmentation or ISM please consult the following files:
+code/ISM/readme.txt
+code/ISM/clusterer9/readme.txt
+code/ISM/mcmatcher3/INSTALL.txt
+code/ISM/mcmatcher3/README.txt
+code/MotSeg/readme.txt
+
+Installation
+============
+
+Dense motion segmentation requires either CUDA or sshpass and titan.cv.tu-berlin.de access.
+
+Run code/ISM/install2.sh for installing and compiling ISM binaries.
+Requires Qt3
+
+To use features other than patches:
+From code/ISM/mcmatcher9/INSTALL.txt:
+"Create a symbolic link from "~/code" to the provided "code"
+subdirectory. This is required, so that the detector can find the
+feature extraction binaries.
+
+ln -s $PWD/code ~/code"
+$PWD being the ISM directory.
+
+Run ./code/compile.sh to install our own tools for extracting figure masks and calculating category similarity.
+Requires OpenCV2
+Requires boost
+
+
+Usage
+=====
+
+We included two input videos from the Hopkins155 dataset and some procossing steps to illustrate intermediary results.
+
+Preparing input files
+---------------------
+Input files are provided at code/data/input/frames/$sequenceName/
+with unique names (without containing dashes "-")
+and a file $sequenceName.bmf according to code/MotSeg/readme.txt
+as PPM files
+List each sequence to be processed with it's $sequenceName in data/input/frames/sequences.txt
+Alternatively, put your input videos as .avi files in data/input/* and run ./preparefiles.sh
+
+Running the processing chain
+----------------------------
+
+run ./trainSequences.sh with the maximal number of iterations as the first parameter
+
+Evaluation
+----------
+./detectAll.sh takes a detector name as it's first argument and the IoU threshold for matching as the second parameter
+It will run test detections with said detector on any sequences listed in data/input/frames/sequences.txt
+and put it's results in data/output/detection.
+
+Running ./evalSim.sh with 1. a detector, 2.  a Jaccard-index threshold (default 0.5) will compare the results of the previozus test detections with results calculated during training and present in data/output/training
+
+You can use ./changeDetectorParam.sh to change ISM params either in trainSequences.sh (for training) or detect.sh (for testing). ./ISM/mcmatcher3/readme.txt has some notes. See files/carsall.params for possible parameters.
+
+
+Processing Chain
+================
+
+Training
+--------
+
+.avi files in data/input/ 
+
+0. preparefiles.sh:
+    split to $sequence-%3frame.ppm frames
+    data/input/frames/$sequence
+    create bmf file for MotSeg/MoSeg
+
+Don't put hyphens "-" in file names!
+
+data/input/frames/$sequence
+list of sequences to be processed in data/input/frames/sequences.txt
+
+1. ./MotSeg/MoSeg
+    output: sparse segmentation in data/inter/tracking/OchsBroxMalik$subsampling_all_00000$nu.00/$sequence as ppm
+    optical flow files in data/input/frames/$sequence/flowfiles
+
+2. densify.sh
+    output: dense segmentation in data/inter/denseSeg/$sequence as ppm
+
+3. runExSeg.sh
+    output: segmentation masks for each object in ExSeg/output/$sequence/$object as png
+
+4. prepareISMfiles.sh
+    output: object frames in data/inter/frames/$sequence/$object
+    object masks in data/inter/frames/$sequence/$object/maps
+    files with frame lists as files/$sequence.idl
+
+5. runISM.sh
+    output: codebook files in files/codebooks/$detector
+
+6. createOccurences.sh
+    output: occurence files in files/codebooks/$detector
+
+7. generateDetectors.sh 
+    output: detector files in files/codebooks/$detector
+    detector list in files/codebooks/detectors.txt
+
+8. runTrainingDetection.sh
+    runs detections on figure arey only.
+    output: detections of detectors in files/codebooks/detectors.txt and all sequences in data/output/training/$detector-$sequence
+    results in data/output/training/$detector-$sequence/results.txt
+
+9. mergeCats.sh
+    output: updated detector list in files/codebooks/detectors.txt
+
+8. and 9. iterating.
+
+Testing
+-------
+
+1. detectAll.sh
+    runs detections on whole frames.
+    input: sequences, output from training.8 and $detector
+    output: detections and results in data/output/detection
+
+2. evalSim.sh
+    input: output from training.8 and from 1
+    output: baseline comparison results in data/output/detection/1eval_$detector.txt
+
+
+Comments
+========
